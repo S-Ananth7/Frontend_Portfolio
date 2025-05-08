@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
-@import "tailwindcss/base";  /* This replaces preflight in newer versions */
-@import "tailwindcss/components";
+@import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
-
 @layer utilities {
   .animate-fade-in-down {
     animation: fadeInDown 1s ease-out;
